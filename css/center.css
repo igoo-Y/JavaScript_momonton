@@ -19,6 +19,14 @@ form {
     display: none;
 }
 
+.form {
+    margin-bottom: 10px;
+}
+
+.form input {
+    font-size: 30px;
+}
+
 .showing {
     display: block;
 }
