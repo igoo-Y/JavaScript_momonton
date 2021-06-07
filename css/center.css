@@ -1,0 +1,24 @@
+.clock,
+.to-do-list,
+.greetings,
+form {
+    text-align: center;
+}
+
+.clock {
+    margin-bottom: 20px;
+}
+
+.greetings {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.form,
+.greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}

@@ -4,32 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Momonton</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="js-clock clock">
-        <h1>00:00</h1>
-    </div>
-
-    <form class="js-form form">
-        <input type="text" placeholder="What is your name?">
-    </form>
-    <h4 class="js-greetings greetings"></h4>
+    <!-- 가운데 위치할 것들 clock, greetings, to-do-form, to-do-list -->
+    <section class="center">
+        <div class="js-clock clock">
+            <h1>00:00</h1>
+        </div>
     
-    <form class="js-toDoForm">
-        <input type="text" placeholder="Write a to do">
-    </form>
-    <ul class="js-toDoList"></ul>
+        <form class="js-form form">
+            <input type="text" placeholder="What is your name?">
+        </form>
+        <h4 class="js-greetings greetings"></h4>
+        
+        <form class="js-toDoForm to-do-form">
+            <input type="text" placeholder="Write a to do">
+        </form>
+        <ul class="js-toDoList to-do-list"></ul>
+    </section>
+    
+    <h5 class="js-message message"></h5>
+    <span class="js-weather weather"></span>
 
-    <span class="js-weather"></span>
-
-    <script src="index.js"></script>
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
     <script src="todo.js"></script>
     <script src="bg.js"></script>
     <script src="weather.js"></script>
+    <script src="message.js"></script>
 </body>
 </html>
